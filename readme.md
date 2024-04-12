@@ -538,6 +538,13 @@ The use of local storage ensures that the user's name is remembered across sessi
 
 ## 3. How to run the application
 
+![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/8c33c0ab-dec9-4742-b670-76c60951c121)
 
 ## 4. How to debug the application
+
+![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/9fcbac84-44ac-41c6-bfeb-0d5ea020a82b)
+
+![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/6ff6551c-67ec-43ea-a3ab-1ac0f41215c5)
+
+
 
