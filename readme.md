@@ -16,17 +16,136 @@ Install **VSCode** and also install the **Live Server** extension
 
 ### 2.1. Project folders and files structure
 
-
+![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/98186d1e-09ed-48d3-aaa0-8c51dab8ebac)
 
 ### 2.2. HTML source code
 
-
 ```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Mozilla is cool</h1>
+    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 
+    <p>At Mozilla, we’re a global community of</p>
+
+    <ul> <!-- changed to list in the tutorial -->
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+
+    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+
+    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+  <button>Change user</button>
+  <script src="scripts/main.js"></script>
+  </body>
+</html>
 ```
 
+### 2.3. CSS source code
 
-CSS basic sample
+```css
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  
+  html {
+    background-color: #00539F;
+  }
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+```
+
+### 2.4. JavaScript source code
+
+```javascript
+// Image switcher code
+
+let myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+  let mySrc = myImage.getAttribute('src');
+  if(mySrc === 'images/firefox-icon.png') {
+    myImage.setAttribute ('src','images/firefox2.png');
+  } else {
+    myImage.setAttribute ('src','images/firefox-icon.png');
+  }
+}
+
+// Personalized welcome message code
+
+let myButton = document.querySelector('button');
+let myHeading = document.querySelector('h1');
+
+function setUserName() {
+  let myName = prompt('Please enter your name.');
+  if(!myName) {
+    setUserName();
+  } else {
+    localStorage.setItem('name', myName);
+    myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+  }
+}
+
+if(!localStorage.getItem('name')) {
+  setUserName();
+} else {
+  let storedName = localStorage.getItem('name');
+  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+}
+
+myButton.onclick = function() {
+  setUserName();
+}
+```
+
+## 3. How to run the application
+
+
+## 4. How to debug the application
+
+
+
 
 
 **HTML elements**
