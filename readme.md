@@ -22,25 +22,27 @@ Install **VSCode** and also install the **Live Server** extension
 
 #### 2.2.1. !DOCTYPE html
 
-The ```<!DOCTYPE html>``` declaration in HTML is used to instruct the web browser about the version and type of HTML the page is written in
+The ```<!DOCTYPE html>``` declaration in HTML is used to **instruct the web browser about the version and type of HTML the page** is written in
 
-This declaration is not an HTML tag; rather, it is an instruction to the web browser
+This declaration is not an HTML tag; rather, it is an **instruction** to the web browser
 
 Here’s a breakdown of its purpose and function:
 
-Indicates HTML version: The ```<!DOCTYPE html>``` declaration is used to tell the browser to render the page using the standards of **HTML5**
+**Indicates HTML version**: The ```<!DOCTYPE html>``` declaration is used to tell the browser to render the page using the standards of **HTML5**
 
 HTML5 is the latest standard as of my last update and includes many features that facilitate modern web design and application development
 
-Ensures proper rendering: By including this declaration, you help ensure that the browser renders the page in standards mode. Standards mode is a rendering mode that is more consistent with how the HTML standards are defined
+**Ensures proper rendering**: By including this declaration, you help ensure that the browser renders the page in standards mode
+
+**Standards mode** is a rendering mode that is more consistent with how the HTML standards are defined
 
 Without this declaration, the browser might render the page in "quirks mode," which is a backwards-compatible rendering mode that mimics the behavior of older browsers and may lead to inconsistent layout and functionality across different browsers
 
-Syntax and Placement: The ```<!DOCTYPE html>``` declaration should be the very first line in an HTML document, before the <html> tag. It does not require a closing tag.
+**Syntax and Placement**: The ```<!DOCTYPE html>``` declaration should be the very first line in an HTML document, before the <html> tag. It does not require a closing tag.
 
-Simplicity: For **HTML5**, the declaration is simple (```<!DOCTYPE html>```), which is a significant simplification from previous HTML versions that used longer, more complex strings to specify the DOCTYPE.
+**Simplicity**: For **HTML5**, the declaration is simple (```<!DOCTYPE html>```), which is a significant simplification from previous HTML versions that used longer, more complex strings to specify the DOCTYPE.
 
-Including the ```<!DOCTYPE html>``` is considered a best practice for HTML documents and is crucial for cross-browser compatibility and for ensuring that the HTML code is interpreted in the way it was intended.
+Including the ```<!DOCTYPE html>``` is considered a best practice for HTML documents and is crucial for **cross-browser compatibility** and for ensuring that the HTML code is interpreted in the way it was intended.
 
 #### 2.2.2. html lang="en"
 
@@ -56,11 +58,13 @@ Here’s what each part signifies:
 
 **Purpose**: The lang attribute specifies the primary language of the document’s content. This can be crucial for accessibility, search engine optimization (SEO), and for browsers that perform language-specific processing
 
-**Value “en”**: The value "en" indicates that the primary language used in the document is English. This helps assistive technologies like screen readers to pronounce content with correct accentuation and intonation
+**Value “en”**: The value "en" indicates that the primary language used in the document is **English**
 
-It also helps search engines to offer language-specific search results.
+This helps assistive technologies like **screen readers to pronounce content** with correct accentuation and intonation
 
-**Global Attribute**: The lang attribute can be used on any HTML element, not just the <html> tag, to indicate changes in the language for specific portions of a page.
+It also helps search engines to offer language-specific search results
+
+**Global Attribute**: The lang attribute can be used on any HTML element, not just the ```<html>``` tag, to indicate changes in the language for specific portions of a page
 
 Here’s how the ```<html lang="en">``` tag fits into a typical HTML document:
 
