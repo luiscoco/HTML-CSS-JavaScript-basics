@@ -519,7 +519,7 @@ If a name is provided, it saves the name to local storage and updates the ```<h1
 
 If no name is stored in local storage, **setUserName()** is called to prompt the user immediately
 
-If a name is already stored (else), it retrieves the name and updates the <h1> heading accordingly
+If a name is already stored (else), it retrieves the name and updates the ```<h1>``` heading accordingly
 
 **Button Click Event Listener**:
 
