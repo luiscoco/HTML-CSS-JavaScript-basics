@@ -265,9 +265,9 @@ The HTML code provided contains several fundamental **HTML elements** that struc
 
 ```<ul>``` stands for "unordered list," which is used to group a list of items with no particular order. It is often rendered with bullet points.
 
-```<li>``` stands for "list item" and is used inside <ul> (or <ol> for ordered lists) to represent individual items in the list. In your example, the list details various roles people have in the Mozilla community.
+```<li>``` stands for "list item" and is used inside ```<ul>``` (or ```<ol>``` for ordered lists) to represent individual items in the list. In your example, the list details various roles people have in the Mozilla community.
 
-```<a>```: The <a> tag defines a hyperlink, which is used to link from one page to another. This tag makes the web interconnected. In your example:
+```<a>```: The ```<a>``` tag defines a hyperlink, which is used to link from one page to another. This tag makes the web interconnected. In your example:
 
 **href="https://www.mozilla.org/en-US/about/manifesto/"** specifies the URL of the page the link goes to.
 
