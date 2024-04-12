@@ -509,11 +509,11 @@ let myHeading = document.querySelector('h1'); //selects the first <h1> tag in th
 function setUserName() { ... }
 ```
 
-Prompts the user to enter their name with prompt('Please enter your name.');
+Prompts the user to enter their name with ```prompt('Please enter your name.');```
 
-If no name is entered (if(!myName)), it recursively calls setUserName() until a name is provided
+If no name is entered ```(if(!myName))```, it recursively calls **setUserName()** until a name is provided
 
-If a name is provided, it saves the name to local storage and updates the <h1> heading to include the user’s name, making the greeting personalized
+If a name is provided, it saves the name to local storage and updates the ```<h1>``` heading to include the user’s name, making the greeting personalized
 
 **Check for Stored Name**:
 
