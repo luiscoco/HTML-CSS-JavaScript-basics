@@ -1,3 +1,6 @@
 
+HTML basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 
-![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/c80cb7e6-f7bc-4e3e-91cc-86909f836191)
+CSS basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+
+JavaScript basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
