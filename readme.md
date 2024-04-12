@@ -359,7 +359,7 @@ Let's break down each section to understand what each does:
 
 **Global Styles**
 
-HTML Element:
+**HTML Element**:
 
 font-size: 10px;: Sets the base font size for the entire HTML document to 10 pixels. This size often serves as a reference for relative units like rem.
 
@@ -369,7 +369,7 @@ background-color: #00539F;: Sets the background color of the entire HTML documen
 
 **Specific Element Styles**
 
-H1 Element:
+**H1 Element**:
 
 font-size: 60px;: Sets the font size of all ```<h1>``` headers to 60 pixels.
 
@@ -383,7 +383,7 @@ color: #00539F;: Sets the text color of ```<h1>``` headers to the same blue colo
 
 text-shadow: 3px 3px 1px black;: Adds a black shadow to the text in ```<h1>``` tags, making it stand out more against the background.
 
-P and LI Elements:
+**P and LI Elements**:
 
 font-size: 16px;: Establishes the font size for all ```<p>``` paragraphs and ```<li>``` list items.
 
@@ -391,9 +391,9 @@ line-height: 2;: Sets the line height, or the space between lines of text, to tw
 
 letter-spacing: 1px;: Adds 1 pixel of spacing between each letter, which can enhance legibility and aesthetic appeal.
 
-Body Element
+**Body Element**
 
-Body Element:
+**Body Element**:
 
 width: 600px;: Constrains the width of the <body> content to 600 pixels, centering it in the middle of the page.
 
@@ -405,7 +405,7 @@ padding: 0 20px 20px 20px;: Applies padding inside the <body>, specifically 20 p
 
 border: 5px solid black;: Adds a 5-pixel solid black border around the entire body content area.
 
-IMG Element:
+**IMG Element**:
 
 display: block;: Changes the ```<img>``` from its default inline behavior to block, allowing for better control over layout.
 
