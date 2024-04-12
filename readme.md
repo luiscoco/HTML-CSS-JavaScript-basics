@@ -371,21 +371,21 @@ background-color: #00539F;: Sets the background color of the entire HTML documen
 
 H1 Element:
 
-font-size: 60px;: Sets the font size of all <h1> headers to 60 pixels.
+font-size: 60px;: Sets the font size of all ```<h1>``` headers to 60 pixels.
 
-text-align: center;: Centers the text inside <h1> tags.
+text-align: center;: Centers the text inside ```<h1>``` tags.
 
-margin: 0;: Removes any default margin around <h1> elements.
+margin: 0;: Removes any default margin around ```<h1>``` elements.
 
 padding: 20px 0;: Adds 20 pixels of padding to the top and bottom of <h1> elements.
 
-color: #00539F;: Sets the text color of <h1> headers to the same blue color used in the HTML background.
+color: #00539F;: Sets the text color of ```<h1>``` headers to the same blue color used in the HTML background.
 
-text-shadow: 3px 3px 1px black;: Adds a black shadow to the text in <h1> tags, making it stand out more against the background.
+text-shadow: 3px 3px 1px black;: Adds a black shadow to the text in ```<h1>``` tags, making it stand out more against the background.
 
 P and LI Elements:
 
-font-size: 16px;: Establishes the font size for all <p> paragraphs and <li> list items.
+font-size: 16px;: Establishes the font size for all ```<p>``` paragraphs and ```<li>``` list items.
 
 line-height: 2;: Sets the line height, or the space between lines of text, to twice the font size, improving readability.
 
@@ -407,11 +407,13 @@ border: 5px solid black;: Adds a 5-pixel solid black border around the entire bo
 
 IMG Element:
 
-display: block;: Changes the <img> from its default inline behavior to block, allowing for better control over layout.
+display: block;: Changes the ```<img>``` from its default inline behavior to block, allowing for better control over layout.
 
 margin: 0 auto;: Centers images within their container, as block-level elements.
 
-This CSS setup effectively styles various HTML elements to create a visually appealing and readable layout. It uses specific colors to highlight different sections of the page and applies text formatting to enhance the visual hierarchy and readability of textual content.
+This CSS setup effectively styles various HTML elements to create a visually appealing and readable layout
+
+It uses specific colors to highlight different sections of the page and applies text formatting to enhance the visual hierarchy and readability of textual content
 
 ### 2.4. JavaScript source code
 
