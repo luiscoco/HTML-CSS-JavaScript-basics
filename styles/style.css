@@ -21,6 +21,7 @@
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: #009f03;
 }
 
 
@@ -29,8 +30,11 @@ html {
 h1 {
     font-size: 60px;
     text-align: center;
-    color: blue;
-}
+    margin: 10px 20px;
+    padding: 10px 20px;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
   
 p, li {
     font-size: 16px;
@@ -38,5 +42,25 @@ p, li {
     letter-spacing: 1px;
     color: red;
 }
+
+body {
+    width: 800px;
+    /* top and bottom side (setting it to 0 in this case) */
+    /* auto is a special value that divides the available horizontal space evenly between left and right */
+    margin: 40px auto;
+    background-color: #ff9500;
+    /* top, right, bottom, left, */
+    padding: 20px 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
 
 
