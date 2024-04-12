@@ -542,7 +542,11 @@ The use of local storage ensures that the user's name is remembered across sessi
 
 ## 4. How to debug the application
 
+For debugging the web page in the internet web browser we select the option **Developer tools**
+
 ![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/9fcbac84-44ac-41c6-bfeb-0d5ea020a82b)
+
+Then se can see the error messages in the **Console** tab or edit the HTML Element in the **Elements** tab
 
 ![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/6ff6551c-67ec-43ea-a3ab-1ac0f41215c5)
 
