@@ -279,7 +279,31 @@ The clickable text "Mozilla Manifesto" leads users to more detailed information 
 
 Each of these elements plays a specific role in structuring the webpage, enhancing its functionality, accessibility, and user interaction.
 
+#### 2.2.7. How to include a JavaScript file into the webpage
 
+The ```<script src="scripts/main.js"></script>``` tag in your HTML code is used to **include a JavaScript file into the webpage**
+
+This tag is crucial for **adding interactivity and dynamic behavior to web pages**. Here's a brief explanation of its components and purpose:
+
+```<script>``` Tag: This tag is used to embed a JavaScript script within an HTML document. It can either contain inline scripting or link to an external script file, which is what is done in your example.
+
+**Attributes**:
+
+**src="scripts/main.js"**: The src (source) attribute specifies the path to the JavaScript file that is to be included. This path can be a relative URL (as in your example, pointing to a file within the same site) or an absolute URL (linking to a file hosted on a different domain). The file **main.js** in your example likely contains JavaScript code that handles functionalities such as DOM manipulations, event handling, or data fetching.
+
+**Placement in the Document**: The ```<script>``` tag is **placed near the end of** the ```<body>``` section. This is a common practice **to ensure that the HTML content above it is loaded before the script is executed**
+
+Placing scripts at the **bottom** can help improve page load times as the browser doesn't need to pause the parsing of HTML to load and execute the script unless specifically needed earlier.
+
+**Execution**: When the browser reaches the ```<script>``` tag during the rendering of the page, it fetches the script file specified in the src attribute and executes it. This script can manipulate the webpage's content dynamically, respond to user interactions, or perform many other functions.
+
+**Example Usage**:
+
+In your HTML structure, the **JavaScript file main.js** might contain code that interacts with the DOM, such as attaching an event listener to the button with the ID myFirstButton
+
+When clicked, this button could trigger JavaScript functions defined within main.js, possibly changing the user interface or fetching and displaying data
+
+By including the ```<script src="scripts/main.js"></script>``` tag in your webpage, you effectively integrate JavaScript, enhancing the webpage's interactivity and functionality
 
 ### 2.3. CSS source code
 
