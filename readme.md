@@ -6,3 +6,11 @@ CSS basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_
 JavaScript basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
 
 Other samples in this repo: https://github.com/orgs/mdn/repositories
+
+HTML elements
+
+Tag
+
+Attributes
+
+Methods
