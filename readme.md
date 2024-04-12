@@ -12,6 +12,8 @@ Other samples in this repo: https://github.com/orgs/mdn/repositories
 
 Install **VSCode** and also install the **Live Server** extension
 
+![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/1a549f3e-c593-4375-8768-ffb6429e7e9e)
+
 ## 2. My first Web Page sample
 
 ### 2.1. Project folders and files structure
