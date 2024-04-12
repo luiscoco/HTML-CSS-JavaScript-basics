@@ -52,7 +52,7 @@ Here’s what each part signifies:
 
 ```<html>``` **Tag**: This tag marks the beginning of an HTML document. It contains all the visible and hidden content of the web page, including elements like <head> and <body>. The <html> tag is closed with </html> at the end of the document.
 
-**lang="en" Attribute**:
+**lang="en" Attribute**
 
 **Purpose**: The lang attribute specifies the primary language of the document’s content. This can be crucial for accessibility, search engine optimization (SEO), and for browsers that perform language-specific processing
 
