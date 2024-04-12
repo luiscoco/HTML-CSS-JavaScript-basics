@@ -313,7 +313,7 @@ myImage.onclick = function() {
 
 // Personalized welcome message code
 
-let myButton = document.querySelector('button');
+let myButton = document.querySelector('#myFirstButton');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
