@@ -20,10 +20,7 @@ Install **VSCode** and also install the **Live Server** extension
 
 ### 2.2. HTML source code
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```
-<!DOCTYPE html>
-```
+#### 2.2.1. !DOCTYPE html
 
 The ```<!DOCTYPE html>``` declaration in HTML is used to instruct the web browser about the version and type of HTML the page is written in
 
@@ -45,11 +42,48 @@ Simplicity: For **HTML5**, the declaration is simple (```<!DOCTYPE html>```), wh
 
 Including the ```<!DOCTYPE html>``` is considered a best practice for HTML documents and is crucial for cross-browser compatibility and for ensuring that the HTML code is interpreted in the way it was intended.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### 2.2.2. html lang="en"
 
-```<html lang="en">```
+The ```<html>``` **tag** is a fundamental part of any HTML document, serving as the **root element** that encapsulates all the content of the webpage
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The lang="en" **attribute** within the ```<html>``` tag provides additional important information about the **language of the document's content**
+
+Here’s what each part signifies:
+
+```<html>``` **Tag**: This tag marks the beginning of an HTML document. It contains all the visible and hidden content of the web page, including elements like <head> and <body>. The <html> tag is closed with </html> at the end of the document.
+
+**lang="en" Attribute**:
+
+**Purpose**: The lang attribute specifies the primary language of the document’s content. This can be crucial for accessibility, search engine optimization (SEO), and for browsers that perform language-specific processing
+
+**Value “en”**: The value "en" indicates that the primary language used in the document is English. This helps assistive technologies like screen readers to pronounce content with correct accentuation and intonation
+
+It also helps search engines to offer language-specific search results.
+
+**Global Attribute**: The lang attribute can be used on any HTML element, not just the <html> tag, to indicate changes in the language for specific portions of a page.
+
+Here’s how the ```<html lang="en">``` tag fits into a typical HTML document:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Page</title>
+</head>
+<body>
+    <p>This is an example of a simple HTML document.</p>
+</body>
+</html>
+```
+
+In this structure, the ```<html lang="en">``` tag effectively communicates that the content of this webpage is primarily in English, aiding both user accessibility and web functionality
+
+
+
+
+
+
 
 
 ```html
