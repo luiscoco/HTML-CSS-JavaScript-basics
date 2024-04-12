@@ -171,11 +171,47 @@ In this example, the ```<meta charset="utf-8">``` ensures that all characters, i
 
 It's an essential part of modern HTML documents to accommodate global and multilingual content.
 
-#### 2.2.4. 
+#### 2.2.4. How to link a CSS stylesheet to the HTML page
 
 ```html
 <link href="styles/style.css" rel="stylesheet" type="text/css">
 ```
+
+The HTML ```<link>``` tag in your code is used to link external resources to an HTML document. In this specific instance, it's linking a CSS stylesheet to the HTML page. Here’s a brief explanation of the components of the tag:
+
+```<link>``` Tag: This is used to define a relationship between the HTML document and an external resource. It is a self-closing tag and is placed inside the <head> section of the HTML document.
+
+**Attributes**:
+
+**href="styles/style.css"**: This attribute specifies the path to the external file that is being linked to the HTML document
+
+In this case, it's a CSS file named style.css located in a folder named styles
+
+**rel="stylesheet"**: The rel (relationship) attribute specifies the relationship between the current document and the linked file
+
+Here, stylesheet indicates that the linked file is a stylesheet. This tells the browser how to use the linked file
+
+**type="text/css"**: This attribute specifies the MIME type of the linked file, telling the browser what kind of file it is. text/css indicates that the file is a CSS (Cascading Style Sheets) file
+
+Although this attribute is optional in HTML5 (as browsers can infer the type from the rel attribute), it can still be included for clarity or compatibility with older HTML specifications
+
+Here is how this tag typically fits into an HTML document:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Example Page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <p>This is an example of a web page using an external CSS file to style its content.</p>
+</body>
+</html>
+```
+
+In this setup, **the CSS file linked in the <link> tag would contain the styles (like colors, fonts, layouts) that apply to elements in the HTML document**, helping to separate content from presentation.
 
 
 ### 2.3. CSS source code
