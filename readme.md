@@ -550,5 +550,8 @@ Then se can see the error messages in the **Console** tab or edit the HTML Eleme
 
 ![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/6ff6551c-67ec-43ea-a3ab-1ac0f41215c5)
 
+![image](https://github.com/luiscoco/HTML-and-CSS-basics/assets/32194879/27b65839-57b2-46da-96dc-02cfcdc3194e)
+
+
 
 
