@@ -213,6 +213,41 @@ Here is how this tag typically fits into an HTML document:
 
 In this setup, **the CSS file linked in the <link> tag would contain the styles (like colors, fonts, layouts) that apply to elements in the HTML document**, helping to separate content from presentation.
 
+#### 2.2.5. How to link an external CSS stylesheet from Google Fonts to the HTML document
+
+The HTML ```<link>``` tag in your code is used to link an external CSS stylesheet from Google Fonts to the HTML document. This specific tag includes the Open Sans font family in your webpage. Here’s a brief breakdown of each component of the tag:
+
+```<link>``` Tag: This is utilized to establish a relationship between the HTML document and an external resource, which, in this case, is a CSS stylesheet that includes the font styles from Google Fonts. This tag is usually placed inside the <head> section of an HTML document.
+
+**Attributes**:
+
+**href="https://fonts.googleapis.com/css?family=Open+Sans"**: This attribute specifies the URL where the stylesheet is located
+
+The URL points to Google's font service, which provides the Open Sans font. The query parameter family=Open+Sans in the URL specifies that the stylesheet should include the Open Sans font.
+
+**rel="stylesheet"**: The rel attribute indicates the relationship between the document and the linked resource. Here, setting rel to "stylesheet" tells the browser that the linked resource is a CSS stylesheet to be used for styling the webpage.
+
+**type="text/css"**: This attribute describes the MIME type of the linked resource, here indicating that it is a CSS file. While often optional in modern web development due to browsers' ability to infer type from context, it provides explicit information about the content type of the linked resource.
+
+Here’s how the ```<link>``` tag fits into an HTML document:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Example Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <p style="font-family: 'Open Sans', sans-serif;">This text uses the Open Sans font loaded from Google Fonts.</p>
+</body>
+</html>
+```
+
+In this example, the font Open Sans is applied to a paragraph element in the body of the document. The linked CSS file provided by Google Fonts ensures that the Open Sans font is available and rendered in the browser, enhancing typography across the webpage.
+
+
 
 ### 2.3. CSS source code
 
