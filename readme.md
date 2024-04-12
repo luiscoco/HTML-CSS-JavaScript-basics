@@ -1,3 +1,4 @@
+# Introduction to HTML, CSS and JavaScript
 
 HTML basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 
@@ -7,11 +8,32 @@ JavaScript basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_starte
 
 Other samples in this repo: https://github.com/orgs/mdn/repositories
 
-HTML elements
+## 1. Prerequisite
 
-Tag
+Install **VSCode** and also install the **Live Server** extension
 
-Attributes: 
+## 2. My first Web Page sample
+
+### 2.1. Project folders and files structure
+
+
+
+### 2.2. HTML source code
+
+
+```html
+
+```
+
+
+CSS basic sample
+
+
+**HTML elements**
+
+**Tag**
+
+**Attributes**: 
 
 These are two attributes(**type** and **disabled**) sample for the HTML element **input**: 
 
@@ -20,3 +42,12 @@ These are two attributes(**type** and **disabled**) sample for the HTML element 
 ```
 
 Methods
+
+Other features:
+
+To use quote marks inside other quote marks of the same type (single quote or double quote), use HTML entities. 
+
+```html
+<a href="https://www.example.com" title="An &quot;interesting&quot; reference">A link to my example.</a>
+```
+
