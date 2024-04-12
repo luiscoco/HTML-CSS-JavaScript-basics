@@ -11,6 +11,12 @@ HTML elements
 
 Tag
 
-Attributes
+Attributes: 
+
+These are two attributes(type and disabled) sample for the HTML element "input": 
+
+```html
+<input type="text" disabled />
+```
 
 Methods
