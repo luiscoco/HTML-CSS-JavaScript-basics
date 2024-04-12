@@ -509,17 +509,17 @@ let myHeading = document.querySelector('h1'); //selects the first <h1> tag in th
 function setUserName() { ... }
 ```
 
-Prompts the user to enter their name with prompt('Please enter your name.');.
+Prompts the user to enter their name with prompt('Please enter your name.');
 
-If no name is entered (if(!myName)), it recursively calls setUserName() until a name is provided.
+If no name is entered (if(!myName)), it recursively calls setUserName() until a name is provided
 
-If a name is provided, it saves the name to local storage and updates the <h1> heading to include the user’s name, making the greeting personalized.
+If a name is provided, it saves the name to local storage and updates the <h1> heading to include the user’s name, making the greeting personalized
 
 **Check for Stored Name**:
 
-If no name is stored in local storage, setUserName() is called to prompt the user immediately.
+If no name is stored in local storage, **setUserName()** is called to prompt the user immediately
 
-If a name is already stored (else), it retrieves the name and updates the <h1> heading accordingly.
+If a name is already stored (else), it retrieves the name and updates the <h1> heading accordingly
 
 **Button Click Event Listener**:
 
@@ -527,7 +527,7 @@ If a name is already stored (else), it retrieves the name and updates the <h1> h
 myButton.onclick = function() { setUserName(); }
 ```
 
-This assigns an event listener to the button that triggers setUserName() when clicked, allowing the user to change the stored name.
+This assigns an event listener to the button that triggers **setUserName()** when clicked, allowing the user to change the stored name
 
 Together, these scripts enhance the interactivity of the webpage by allowing users to switch images by clicking and personalize the page greeting with their name
 
