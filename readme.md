@@ -458,34 +458,84 @@ myButton.onclick = function() {
 }
 ```
 
+The **JavaScript** code provided consists of two main **functionalities**: an image switcher and a personalized welcome message. 
+
+Here’s a breakdown of what each part does and how it works:
+
+**Image Switcher Code**
+
+**Select the Image:**
+
+```javascript
+let myImage = document.querySelector('img');
+```
+
+This line selects the first ```<img>``` tag found in the document and stores it in the variable myImage.
+
+**Set up an Event Listener for Clicks**:
+
+```javascript
+myImage.onclick = function() { ... }
+```
+
+This assigns a function to be executed whenever the myImage element is clicked
+
+**Image Source Toggle**:
+
+**Inside the click event function**:
+
+```javascript
+let mySrc = myImage.getAttribute('src');  //gets the current src attribute of the image
+```
+
+The if statement checks if the current image source is 'images/firefox-icon.png'
+
+If true, it changes the source to 'images/firefox2.png' using myImage.setAttribute('src', 'images/firefox2.png');
+
+If false (meaning it’s currently 'images/firefox2.png'), it sets the source back to 'images/firefox-icon.png'
+
+**Personalized Welcome Message Code**
+
+**Select Button and Heading Elements**:
+
+```javascript
+let myButton = document.querySelector('#myFirstButton'); //selects the button with the ID myFirstButton.
+let myHeading = document.querySelector('h1'); //selects the first <h1> tag in the document.
+```
+
+**Function to Set User Name:**
+
+```javascript
+function setUserName() { ... }
+```
+
+Prompts the user to enter their name with prompt('Please enter your name.');.
+
+If no name is entered (if(!myName)), it recursively calls setUserName() until a name is provided.
+
+If a name is provided, it saves the name to local storage and updates the <h1> heading to include the user’s name, making the greeting personalized.
+
+**Check for Stored Name**:
+
+If no name is stored in local storage, setUserName() is called to prompt the user immediately.
+
+If a name is already stored (else), it retrieves the name and updates the <h1> heading accordingly.
+
+**Button Click Event Listener**:
+
+```javascript
+myButton.onclick = function() { setUserName(); }
+```
+
+This assigns an event listener to the button that triggers setUserName() when clicked, allowing the user to change the stored name.
+
+Together, these scripts enhance the interactivity of the webpage by allowing users to switch images by clicking and personalize the page greeting with their name
+
+The use of local storage ensures that the user's name is remembered across sessions until it's changed again
+
+
 ## 3. How to run the application
 
 
 ## 4. How to debug the application
-
-
-
-
-
-**HTML elements**
-
-**Tag**
-
-**Attributes**: 
-
-These are two attributes(**type** and **disabled**) sample for the HTML element **input**: 
-
-```html
-<input type="text" disabled />
-```
-
-Methods
-
-Other features:
-
-To use quote marks inside other quote marks of the same type (single quote or double quote), use HTML entities. 
-
-```html
-<a href="https://www.example.com" title="An &quot;interesting&quot; reference">A link to my example.</a>
-```
 
