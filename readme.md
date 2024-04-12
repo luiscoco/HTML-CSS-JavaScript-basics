@@ -253,7 +253,7 @@ The HTML code provided contains several fundamental **HTML elements** that struc
 
 ```<h1>```: The <h1> tag is used for the main heading of the page. It has the highest level of importance among heading tags (<h1> through <h6>) and helps in structuring the content and improving SEO by emphasizing key topics. In your example, <h1>Mozilla is cool</h1> sets the main topic of the content.
 
-```<img>```: The <img> tag is used to embed an image in the HTML page. It has several attributes:
+```<img>```: The ```<img>``` tag is used to embed an image in the HTML page. It has several attributes:
 
 **src="images/firefox-icon.png"** specifies the path to the image file.
 
