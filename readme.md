@@ -377,7 +377,7 @@ text-align: center;: Centers the text inside ```<h1>``` tags.
 
 margin: 0;: Removes any default margin around ```<h1>``` elements.
 
-padding: 20px 0;: Adds 20 pixels of padding to the top and bottom of <h1> elements.
+padding: 20px 0;: Adds 20 pixels of padding to the top and bottom of ```<h1>``` elements.
 
 color: #00539F;: Sets the text color of ```<h1>``` headers to the same blue color used in the HTML background.
 
