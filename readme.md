@@ -50,7 +50,11 @@ Install **VSCode** and also install the **Live Server** extension
 </html>
 ```
 
-#### 2.2.1. !DOCTYPE html
+#### 2.2.1. Version and Type of HTML the page
+
+```html
+<!DOCTYPE html>
+```
 
 The ```<!DOCTYPE html>``` declaration in HTML is used to **instruct the web browser about the version and type of HTML the page** is written in
 
@@ -74,7 +78,11 @@ Without this declaration, the browser might render the page in "quirks mode," wh
 
 Including the ```<!DOCTYPE html>``` is considered a best practice for HTML documents and is crucial for **cross-browser compatibility** and for ensuring that the HTML code is interpreted in the way it was intended.
 
-#### 2.2.2. html lang="en"
+#### 2.2.2. HTML web page root element
+
+```html
+<html lang="en">
+```
 
 The ```<html>``` **tag** is a fundamental part of any HTML document, serving as the **root element** that encapsulates all the content of the webpage
 
@@ -113,11 +121,15 @@ Here’s how the ```<html lang="en">``` tag fits into a typical HTML document:
 
 In this structure, the ```<html lang="en">``` tag effectively communicates that the content of this webpage is primarily in English, aiding both user accessibility and web functionality
 
-#### 2.2.3. meta charset="utf-8"
+#### 2.2.3. HTML character encoding
 
-The <meta charset="utf-8"> tag in HTML is used to specify the character encoding for the HTML document. Here's a breakdown of its components and purpose:
+```html
+<meta charset="utf-8">
+```
 
-<meta> Tag: This tag provides metadata about the HTML document. Metadata is data (information) about data. The <meta> tag does not affect the display but provides essential information to the browser and search engines. The tag is placed within the <head> section of the HTML document.
+The ```<meta charset="utf-8">``` tag in HTML is used to specify the character encoding for the HTML document. Here's a breakdown of its components and purpose:
+
+```<meta>``` Tag: This tag provides metadata about the HTML document. Metadata is data (information) about data. The <meta> tag does not affect the display but provides essential information to the browser and search engines. The tag is placed within the <head> section of the HTML document.
 
 **charset="utf-8" Attribute**:
 
@@ -159,11 +171,11 @@ In this example, the ```<meta charset="utf-8">``` ensures that all characters, i
 
 It's an essential part of modern HTML documents to accommodate global and multilingual content.
 
+#### 2.2.4. 
 
-
-
-
-
+```html
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+```
 
 
 ### 2.3. CSS source code
