@@ -247,6 +247,38 @@ Here’s how the ```<link>``` tag fits into an HTML document:
 
 In this example, the font Open Sans is applied to a paragraph element in the body of the document. The linked CSS file provided by Google Fonts ensures that the Open Sans font is available and rendered in the browser, enhancing typography across the webpage.
 
+#### 2.2.6. HTML elements included in the body
+
+The HTML code provided contains several fundamental **HTML elements** that structure the content of a **web page**. Here's a breakdown of each element:
+
+```<h1>```: The <h1> tag is used for the main heading of the page. It has the highest level of importance among heading tags (<h1> through <h6>) and helps in structuring the content and improving SEO by emphasizing key topics. In your example, <h1>Mozilla is cool</h1> sets the main topic of the content.
+
+```<img>```: The <img> tag is used to embed an image in the HTML page. It has several attributes:
+
+**src="images/firefox-icon.png"** specifies the path to the image file.
+
+**alt="The Firefox logo"**: a flaming fox surrounding the Earth." provides alternative text that describes the image, which is useful for accessibility (screen readers) and when the image cannot be displayed.
+
+```<p>```: The ```<p>``` tag defines a paragraph. It's used to organize the text into blocks, making the content easier to read. You have several paragraphs in your example, each describing different aspects of Mozilla's mission and work.
+
+```<ul>``` and ```<li>```:
+
+```<ul>``` stands for "unordered list," which is used to group a list of items with no particular order. It is often rendered with bullet points.
+
+```<li>``` stands for "list item" and is used inside <ul> (or <ol> for ordered lists) to represent individual items in the list. In your example, the list details various roles people have in the Mozilla community.
+
+```<a>```: The <a> tag defines a hyperlink, which is used to link from one page to another. This tag makes the web interconnected. In your example:
+
+**href="https://www.mozilla.org/en-US/about/manifesto/"** specifies the URL of the page the link goes to.
+
+The clickable text "Mozilla Manifesto" leads users to more detailed information about Mozilla's values and principles.
+
+```<button>```: The ```<button>``` tag is used to create a clickable button. Buttons are typically used to submit data to a server or trigger interactive JavaScript actions. In your code:
+
+**id="myFirstButton"** is an **attribute** that provides a **unique identifier for the button**, which can be referenced in JavaScript or CSS.
+
+Each of these elements plays a specific role in structuring the webpage, enhancing its functionality, accessibility, and user interaction.
+
 
 
 ### 2.3. CSS source code
