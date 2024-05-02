@@ -2,6 +2,8 @@
 
 HTML basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
 
+HTML interview questions: https://frontendinterviewquestions.medium.com/top-25-html-interview-questions-33309e5ec170
+
 CSS basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
 
 JavaScript basics: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
